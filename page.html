@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<style type="text/css">
+	.ng-invalid.ng-dirty {
+		border-color: red;
+	}
+
+	.ng-valid.ng-dirty {
+		border-color: green;
+	}
+</style>
+<html ng-app="store">
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-controller="StoreController as store">
+	<ul class="list-group">
+		<li ng-repeat="product in store.products | orderBy:'price'" class="list-group-item">
+			<h3><product-title></product-title></h3>
+			<img ng-src="{{ product.images[0].full }}" />
+			<product-panels></product-panels>
+		</li>
+	</ul>
+</body>
+</html>
