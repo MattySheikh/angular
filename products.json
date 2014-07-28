@@ -1,0 +1,51 @@
+[
+	{
+		"name": "Dodecahedron",
+		"price": 2,
+		"description": "This is a Dodecahedron!",
+		"canPurchase": false,
+		"soldOut": true,
+		"images": [
+			{
+				"full": "dodecahedron.jpg",
+				"thumb": "dodecahedronThumb.jpg"
+			}
+		],
+		"reviews": [
+			{
+				"stars": 4,
+				"body": "Neat gem",
+				"author": "Person 1"
+			},
+			{
+				"stars": 5,
+				"body": "Neater gem",
+				"author": "Person 2"
+			}
+		]
+	},
+	{
+		"name": "Pentagonal Gem",
+		"price": 5.95,
+		"description": "This is a Pentagonal Gem!",
+		"canPurchase": false,
+		"images": [
+			{
+				"full": "pentagonal.jpg",
+				"thumb": "pentagonalThumb.jpg"
+			}
+		],
+		"reviews": [
+			{
+				"stars": 1,
+				"body": "Neeeeat gem",
+				"author": "Person 3"
+			},
+			{
+				"stars": 2,
+				"body": "Neateeeer gem",
+				"author": "Person 4"
+			}
+		]
+	}
+]
