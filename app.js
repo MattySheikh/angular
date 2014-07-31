@@ -5,7 +5,6 @@
 		var that = this;
 		that.products = [];
 		$http.get('/products.json').success(function(data) {
-			debugger;
 			that.products = data;
 		});
 	}]);
